@@ -1,10 +1,11 @@
 # invoice-webservice
-Assignment to create a webservice using an xlsx file as a data source
+Assignment to create a webservice using an xlsx file as a data source. I structured this project to emulate what I would do for a more complex project.
+The only difference is I would probably use an ORM for DB access and type safety.
 
-First, clone this project into a local directory.
 
 ## Running the Project
 
+First, clone this project into a local directory.
 Follow these steps to run the project:
 
 1. Navigate to the project directory in your terminal by typing `cd <your-project-name>`.
