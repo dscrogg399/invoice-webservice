@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/danielscroggins/Repos/keysys-webservice/src/logs/debug/.3d88899e575319e4258b776d77e49ce387cb69c0-audit.json",
+    "files": [
+        {
+            "date": 1689389205716,
+            "name": "/Users/danielscroggins/Repos/keysys-webservice/src/logs/debug/2023-07-14.log",
+            "hash": "7ac97ba8411277d9fdf1e294c08495d6ba40424db4c0d3115f712b90d2694e6d"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,48 @@
+2023-07-14 22:01:26 error: uncaughtException: ENOENT: no such file or directory, stat '/Users/danielscroggins/Repos/keysys-webservice/src/public/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/Users/danielscroggins/Repos/keysys-webservice/src/public/favicon.ico'
+    at Object.statSync (node:fs:1615:3)
+    at resolveSync (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:61:12)
+    at new App (/Users/danielscroggins/Repos/keysys-webservice/src/app.ts:23:25)
+    at Object.<anonymous> (/Users/danielscroggins/Repos/keysys-webservice/src/server.ts:6:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-14 22:02:37 error: uncaughtException: ENOENT: no such file or directory, stat '/assets/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/assets/favicon.ico'
+    at Object.statSync (node:fs:1615:3)
+    at resolveSync (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:61:12)
+    at new App (/Users/danielscroggins/Repos/keysys-webservice/src/app.ts:23:25)
+    at Object.<anonymous> (/Users/danielscroggins/Repos/keysys-webservice/src/server.ts:6:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-14 22:03:09 error: uncaughtException: ENOENT: no such file or directory, stat '/assets/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/assets/favicon.ico'
+    at Object.statSync (node:fs:1615:3)
+    at resolveSync (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:61:12)
+    at new App (/Users/danielscroggins/Repos/keysys-webservice/src/app.ts:23:25)
+    at Object.<anonymous> (/Users/danielscroggins/Repos/keysys-webservice/src/server.ts:6:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-14 22:03:31 error: uncaughtException: ENOENT: no such file or directory, stat '/Users/danielscroggins/Repos/keysys-webservice/public/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/Users/danielscroggins/Repos/keysys-webservice/public/favicon.ico'
+    at Object.statSync (node:fs:1615:3)
+    at resolveSync (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/danielscroggins/Repos/keysys-webservice/node_modules/serve-favicon/index.js:61:12)
+    at new App (/Users/danielscroggins/Repos/keysys-webservice/src/app.ts:22:25)
+    at Object.<anonymous> (/Users/danielscroggins/Repos/keysys-webservice/src/server.ts:6:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/danielscroggins/Repos/keysys-webservice/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)

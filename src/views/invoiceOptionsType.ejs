@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invoice Options</title>
+    <link rel="stylesheet" type="text/css" href="/css/invoiceOptions.css" />
+  </head>
+  <body>
+    <h1>
+      <% if (typeCode) { %> Invoice Options - Type: <%=
+      invoiceOptions[0].InvoiceTypeDescription %> <% } else { %> Invoice Options
+      - All Types <% } %> (<%= invoiceOptions.length %>)
+    </h1>
+    <% if (invoiceOptions.length === 0) { %>
+    <h3>No results found.</h3>
+    <% } else { %>
+    <div class="invoice-options-grid">
+      <% invoiceOptions.forEach(function(item) { %>
+      <div class="invoice-option">
+        <h2>
+          Invoice Type: <br />
+          <%= item.InvoiceTypeCode %> - <%= item.InvoiceTypeDescription %>
+        </h2>
+        <p>Line Item Code: <%= item.CategoryID %>-<%= item.SubCategoryID %></p>
+        <p>
+          Line Item Description: <br />
+          <%= item.CategoryDescription %> - <%= item.SubCategoryDescription %>
+        </p>
+      </div>
+      <% }); %>
+    </div>
+    <% } %>
+  </body>
+</html>

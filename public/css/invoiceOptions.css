@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+.invoice-options-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.invoice-option {
+  border: 1px solid #4a5568;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+}
