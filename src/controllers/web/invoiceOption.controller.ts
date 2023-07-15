@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from "express";
+import { HttpException } from "../../exceptions/http.exception";
 import { InvoiceOptionService } from "../../services/invoiceOptions.service";
 
 export class InvoiceOptionController {
@@ -22,8 +23,8 @@ export class InvoiceOptionController {
         invoiceOptions,
         categoryId: invoiceOptions.length > 0 ? categoryId : undefined,
       });
-    } catch (error) {
-      next(error);
+    } catch (error: any) {
+      next(new HttpException(500, error.message));
     }
   };
 
@@ -45,8 +46,8 @@ export class InvoiceOptionController {
         invoiceOptions,
         typeCode: invoiceOptions.length > 0 ? typeCode : undefined,
       });
-    } catch (error) {
-      next(error);
+    } catch (error: any) {
+      next(new HttpException(500, error.message));
     }
   };
 }
